@@ -1,8 +1,9 @@
 const express = require('express');
 const app = express();
 
-// Midware para usar json na aplicação
+// Middleware para usar json na aplicação
 app.use(express.json());
+
 
 /* Métodos HTTP
 
